@@ -85,6 +85,7 @@ QFrame[frameShape="5"] {{ max-height: 16777215px; max-width: 1px; }}
 
 /* ---------- tooltips ---------- */
 QToolTip {{
+    {FONT_RULE}   /* tooltips get their own smaller font from Qt unless set here */
     background-color: {C['TIP']};
     color: {C['TEXT']};
     border: 1px solid {C['BORDER']};

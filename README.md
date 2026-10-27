@@ -75,7 +75,7 @@ bash install.sh <paraview_binary> [variant] [font_pt] [icon_theme]
 |---|---|---|
 | `paraview_binary` | required | Path to `bin/paraview` inside the downloaded ParaView folder. |
 | `variant` | `blue` | Accent color: `blue` (terminal color4, `#53A3C6`) or `gold` (color3, `#B59A5A`). |
-| `font_pt` | `11` | UI font size in points. `0` leaves the size to ParaView (Edit → Settings → General). |
+| `font_pt` | `11` | UI font size in points, also used for tooltips. `0` leaves the size to ParaView (Edit → Settings → General). |
 | `icon_theme` | `auto` | Icon theme for file dialogs. `auto` uses `breeze-dark` if it is installed. To see what you have: `ls /usr/share/icons ~/.local/share/icons` |
 
 Examples:
@@ -167,6 +167,7 @@ The file also sets two things that this mode would otherwise change:
 |---|---|
 | `QFrame#CentralWidgetFrame { border: none; }` | Removes the blue frame ParaView draws around the active render view. |
 | `pqPropertyWidget { border: none; }` | Removes the blue frame around property groups whose 3D widget is active, such as a Clip plane. |
+| `QToolTip { font-size: … }` | Tooltips get their own smaller font from Qt, so the general font size doesn't reach them. |
 | `QComboBox#EntityType { max-width: 28em; }` | The file dialog's "Files of type" list grows to fit every supported extension, which made the dialog wider than the screen. |
 | `QTabBar { qproperty-drawBase: 0; }` | Asks Qt not to draw the tab-bar base line. The dark palette is the real fix; this is a backup. |
 | `QProgressBar` with no border or chunk rules | Leaves the drawing to Fusion, which uses dark text over the filled part and light text over the empty part, as in the memory meter. |
