@@ -13,6 +13,26 @@ things ParaView's Qt does read:
 
 Nothing is compiled, and nothing outside ParaView is affected.
 
+> **Linux only.** This package is written for Linux on X11 and was developed and tested
+> with xmonad. It also works under any other X11 window manager or desktop.
+> Several parts depend on Linux specifically:
+>
+> - **The installer and launcher** are bash scripts.
+> - **Install locations** follow Linux conventions: `~/.local/bin`, `~/.local/share`,
+>   `XDG_CONFIG_DIRS`, and `.desktop` menu entries.
+> - **Dark mode** relies on Qt's Linux-only `kde` platform theme.
+> - **The Python colors** assume the Linux ParaView folder layout,
+>   `lib/python3.*/site-packages/`.
+>
+> Under Wayland, the binary normally runs through XWayland and should behave the same,
+> but that hasn't been tested.
+>
+> On Windows and macOS this package won't work as-is. Those systems usually don't need
+> the dark-mode part: Qt 6 follows their system dark mode on its own. The stylesheet idea
+> itself is portable. You could generate the `.qss` with `gen_paraview_qss.py` and start
+> ParaView with `-style=fusion -stylesheet=<path to .qss>`, but the launcher, install
+> paths and pygments step would need rewriting for that platform.
+
 
 ## Package contents
 
