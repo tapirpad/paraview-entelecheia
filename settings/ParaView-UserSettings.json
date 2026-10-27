@@ -1,0 +1,367 @@
+{
+	"TransferFunctionPresets" : 
+	{
+		"CustomPresets" : "[\n]",
+		"Groups" : "[{\"groupName\":\"Default\",\"presets\":[\"Fast\",\"Turbo\",\"Cool to Warm\",\"Cool to Warm (Extended)\",\"Black-Body Radiation\",\"X Ray\",\"Inferno\",\"Black, Blue and White\",\"Blue Orange (divergent)\",\"Viridis\",\"Cold and Hot\",\"Linear Green (Gr4L)\",\"Rainbow Desaturated\",\"Blue - Green - Orange\",\"Rainbow Uniform\",\"Yellow - Gray - Blue\",\"Inferno (matplotlib)\",\"Viridis (matplotlib)\",\"Gray and Red\",\"Fast (Reds)\",\"Fast (Blues)\"]},{\"groupName\":\"Diverging\",\"presets\":[\"Cool to Warm (Extended)\",\"Blue Orange (divergent)\",\"Gray and Red\",\"Rainbow Uniform\",\"Cold and Hot\",\"Warm to Cool\",\"Warm to Cool (Extended)\",\"coolwarm\",\"BuRd\",\"Spectral_lowBlow\",\"GnRP\",\"GYPi\",\"GnYlRd\",\"GBBr\",\"PuOr\",\"PRGn\",\"PiYG\",\"OrPu\",\"BrBG\",\"erdc_divHi_purpleGreen\",\"erdc_divHi_purpleGreen_dim\",\"nic_Edge\",\"erdc_iceFire_H\",\"GyRd\",\"Muted Blue-Green\",\"Green-Blue Asymmetric Divergent (62Blbc)\",\"Asymmetrical Earth Tones (6_21b)\",\"erdc_divLow_icePeach\",\"erdc_divLow_purpleGreen\",\"Haze_green\",\"Haze_lime\",\"Haze\",\"Haze_cyan\",\"erdc_iceFire_L\"]},{\"groupName\":\"Isoluminant\",\"presets\":[\"Cool to Warm\",\"Warm to Cool\",\"CIELab Blue to Red\",\"erdc_rainbow_bright\",\"erdc_rainbow_dark\",\"nic_CubicL\",\"nic_CubicYF\",\"erdc_blue2gold\",\"hue_L60\"]},{\"groupName\":\"Linear\",\"presets\":[\"X Ray\",\"Black, Blue and White\",\"Linear Green (Gr4L)\",\"Viridis\",\"Inferno\",\"Fast (Reds)\",\"Fast (Blues)\",\"Grayscale\",\"bone_Matlab\",\"gray_Matlab\",\"GnBu\",\"Greens\",\"GREEN-WHITE_LINEAR\",\"Linear Blue (8_31f)\",\"Blues\",\"BuPu\",\"erdc_blue_BW\",\"BLUE-WHITE\",\"erdc_magenta_BW\",\"magenta\",\"erdc_purple_BW\",\"Purples\",\"PuBu\",\"erdc_red_BW\",\"Reds\",\"erdc_green2yellow_BW\",\"erdc_blue2yellow\",\"erdc_blue2gold\",\"Blue to Yellow\",\"blue2yellow\",\"Cividis\",\"CIELab Blue to Red\",\"BuGn\",\"GnBuPu\",\"BuGnYl\",\"Linear YGB 1211g\",\"erdc_blue2green_muted\",\"erdc_cyan2orange\",\"erdc_purple2green\",\"erdc_purple2green_dark\",\"erdc_blue2green_BW\",\"blue2cyan\",\"erdc_blue2cyan_BW\",\"erdc_marine2gold_BW\",\"erdc_blue2gold_BW\",\"erdc_sapphire2gold_BW\",\"erdc_red2purple_BW\",\"erdc_purple2pink_BW\",\"PuRd\",\"RdPu\",\"RED-PURPLE\",\"Yellow 15\",\"RED_TEMPERATURE\",\"Oranges\",\"RdOr\",\"erdc_orange_BW\",\"heated_object\",\"erdc_gold_BW\",\"erdc_brown_BW\",\"copper_Matlab\",\"pink_Matlab\",\"BrOrYl\",\"RdOrYl\",\"Block-Body Radiation\",\"2hot\",\"erdc_red2yellow_BW\",\"Black, Orange, and White\",\"erdc_pbj_lin\",\"Magma\",\"Plasma\"]},{\"groupName\":\"Rainbow\",\"presets\":[\"Fast\",\"Rainbow Desaturated\",\"Rainbow Uniform\",\"Turbo\",\"Jet\",\"Blue to Red Rainbow\",\"Rainbow Blended White\",\"Rainbow Blended Grey\",\"Rainbow Blended Black\",\"erdc_rainbow_bright\",\"erdc_rainbow_dark\",\"nic_CubicL\",\"nic_Edge\",\"hsv\"]},{\"groupName\":\"Structured\",\"presets\":[\"Blue - Green - Orange\",\"Rainbow Desaturated\",\"Yellow - Gray - Blue\",\"Rainbow Blended Black\",\"Rainbow Blended Grey\",\"Rainbow Blended White\",\"blot\",\"hsv\",\"KAAMS Step\",\"Spectrum Step\",\"Blues Step\",\"Wildflower Step\",\"Cool Step\",\"Warm Step\",\"Citrus Step\",\"Traffic Lights Step\",\"Traffic Lights For Deuteranopes Step\",\"Traffic Lights For Deuteranopes 2 Step\"]}]"
+	},
+	"lookup_tables" : 
+	{
+		"PVLookupTable" : 
+		{
+			"ColorSpace" : 2,
+			"NanColor" : 
+			[
+				0.0,
+				1.0,
+				0.0
+			],
+			"RGBPoints" : 
+			[
+				5.7780244349008627e-08,
+				0.056399999999999992,
+				0.056399999999999992,
+				0.46999999999999997,
+				1.8638824981352502,
+				0.24300000000000013,
+				0.46035000000000043,
+				0.81000000000000005,
+				3.242297223788269,
+				0.35681438265435211,
+				0.74502464853631423,
+				0.95436770289372197,
+				4.6939021118653432,
+				0.68820000000000003,
+				0.93000000000000005,
+				0.91790999999999989,
+				5.4311385713951097,
+				0.89949595512059022,
+				0.944646394975174,
+				0.7686567142818399,
+				6.3894742080225972,
+				0.957107977357604,
+				0.83381851089856662,
+				0.50891562998421025,
+				7.6703020504435457,
+				0.92752075996107142,
+				0.62143890917391775,
+				0.31535705838676426,
+				9.2072954613486822,
+				0.80000000000000004,
+				0.35200000000000009,
+				0.15999999999999998,
+				10.862277085009975,
+				0.58999999999999997,
+				0.076700000000000129,
+				0.11947499999999994
+			]
+		}
+	},
+	"misc" : 
+	{
+		"SaveAnimation" : 
+		{
+			"Format" : 
+			{
+				"BMP" : 
+				{
+					"Selected" : false
+				},
+				"FFMPEG" : 
+				{
+					"Selected" : true
+				},
+				"JPEG" : 
+				{
+					"Selected" : false
+				},
+				"OggTheora" : 
+				{
+					"Selected" : false
+				},
+				"PNG" : 
+				{
+					"Selected" : false
+				},
+				"TIFF" : 
+				{
+					"Selected" : false
+				}
+			},
+			"FrameRate" : 20
+		},
+		"SaveScreenshot" : 
+		{
+			"Format" : 
+			{
+				"BMP" : 
+				{
+					"Selected" : false
+				},
+				"JPEG" : 
+				{
+					"Selected" : false
+				},
+				"PNG" : 
+				{
+					"Selected" : true
+				},
+				"TIFF" : 
+				{
+					"Selected" : false
+				},
+				"VTK" : 
+				{
+					"Selected" : false
+				}
+			}
+		}
+	},
+	"piecewise_functions" : 
+	{
+		"PiecewiseFunction" : 
+		{
+			"Points" : 
+			[
+				5.7780244349008627e-08,
+				0.0,
+				0.5,
+				0.0,
+				10.862277085009975,
+				1.0,
+				0.5,
+				0.0
+			]
+		}
+	},
+	"representations" : 
+	{
+		"ScalarBarWidgetRepresentation" : 
+		{
+			"HorizontalTitle" : 1,
+			"LabelColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"LabelFontFamily" : 2,
+			"LabelFontSize" : 30,
+			"Position" : 
+			[
+				0.81350746268656715,
+				0.070473186119873785
+			],
+			"ScalarBarLength" : 0.23909090909090913,
+			"TitleColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"TitleFontFamily" : 2,
+			"TitleFontSize" : 30,
+			"WindowLocation" : 0
+		},
+		"UnstructuredGridRepresentation" : 
+		{
+			"BlockColorsDistinctValues" : 12,
+			"DataAxesGrid" : 
+			{
+				"GridAxesRepresentation" : 
+				{
+					"Selected" : true
+				}
+			},
+			"GlyphType" : 
+			{
+				"ArrowSource" : 
+				{
+					"Selected" : true
+				},
+				"ConeSource" : 
+				{
+					"Selected" : false
+				},
+				"CubeSource" : 
+				{
+					"Selected" : false
+				},
+				"CylinderSource" : 
+				{
+					"Selected" : false
+				},
+				"GlyphSource2D" : 
+				{
+					"Selected" : false
+				},
+				"LineSource" : 
+				{
+					"Selected" : false
+				},
+				"PipelineConnection" : 
+				{
+					"Selected" : false
+				},
+				"SphereSource" : 
+				{
+					"Selected" : false
+				}
+			},
+			"OSPRayScaleFunction" : 
+			{
+				"PiecewiseFunction" : 
+				{
+					"Selected" : true
+				}
+			},
+			"OpacityTransferFunction" : 
+			{
+				"PiecewiseFunction" : 
+				{
+					"Points" : 
+					[
+						0.0,
+						0.0,
+						0.5,
+						0.0,
+						1.1757813367477812e-38,
+						1.0,
+						0.5,
+						0.0
+					],
+					"Selected" : true
+				}
+			},
+			"PolarAxes" : 
+			{
+				"PolarAxesRepresentation" : 
+				{
+					"Selected" : true
+				}
+			},
+			"ScaleTransferFunction" : 
+			{
+				"PiecewiseFunction" : 
+				{
+					"Points" : 
+					[
+						0.0,
+						0.0,
+						0.5,
+						0.0,
+						1.1757813367477812e-38,
+						1.0,
+						0.5,
+						0.0
+					],
+					"Selected" : true
+				}
+			}
+		}
+	},
+	"settings" : 
+	{
+		"ColorPalette" : 
+		{
+			"BackgroundColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"BackgroundColor2" : 
+			[
+				0.84999999999999998,
+				0.82999999999999996,
+				0.81999999999999995
+			],
+			"ForegroundColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"TextAnnotationColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"views" : 
+	{
+		"RenderView" : 
+		{
+			"AxesGrid" : 
+			{
+				"GridAxes3DActor" : 
+				{
+					"GridColor" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"Selected" : true,
+					"XLabelColor" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"XTitleColor" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"YLabelColor" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"YTitleColor" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"ZLabelColor" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"ZTitleColor" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			},
+			"Background" : 
+			[
+				0.3843137254901961,
+				0.36470588235294116,
+				0.35294117647058826
+			],
+			"OrientationAxesLabelColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"OrientationAxesOutlineColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"StereoType" : 1,
+			"UseColorPaletteForBackground" : 0
+		}
+	}
+}
